@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 45px;
+  padding: 0;
+  text-align: center;
+  font-size: 15pt;
+  background-color: #112;
+}
+
+h1 {
+  color: white;
+  margin: 15px auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.cell {
+  color: #112;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  font-size: 3em;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+}
+.cell:hover {
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
+}
+.cell.active {
+  background-color: aqua;
+  color: white;
+  cursor: none;
+}
+.status {
+  margin: 15px auto;
+  font-size: 1.25rem;
+  height: 1.25rem;
+  font-family: sans-serif;
+  color: greenyellow;
+  background-color: #112;
+  text-align: center;
+  width: 50Vw;
+}
+.log {
+  margin: 0px auto;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: monospace;
+  color: turquoise;
+  background-color: black;
+  text-align: center;
+  width: 50Vw;
+}
